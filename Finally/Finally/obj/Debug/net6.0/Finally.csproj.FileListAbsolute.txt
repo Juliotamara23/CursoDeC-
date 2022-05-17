@@ -1,0 +1,15 @@
+D:\C#\primeraAplicacion\Finally\Finally\obj\Debug\net6.0\Finally.csproj.AssemblyReference.cache
+D:\C#\primeraAplicacion\Finally\Finally\obj\Debug\net6.0\Finally.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\primeraAplicacion\Finally\Finally\obj\Debug\net6.0\Finally.AssemblyInfoInputs.cache
+D:\C#\primeraAplicacion\Finally\Finally\obj\Debug\net6.0\Finally.AssemblyInfo.cs
+D:\C#\primeraAplicacion\Finally\Finally\obj\Debug\net6.0\Finally.csproj.CoreCompileInputs.cache
+D:\C#\primeraAplicacion\Finally\Finally\bin\Debug\net6.0\Finally.exe
+D:\C#\primeraAplicacion\Finally\Finally\bin\Debug\net6.0\Finally.deps.json
+D:\C#\primeraAplicacion\Finally\Finally\bin\Debug\net6.0\Finally.runtimeconfig.json
+D:\C#\primeraAplicacion\Finally\Finally\bin\Debug\net6.0\Finally.dll
+D:\C#\primeraAplicacion\Finally\Finally\bin\Debug\net6.0\ref\Finally.dll
+D:\C#\primeraAplicacion\Finally\Finally\bin\Debug\net6.0\Finally.pdb
+D:\C#\primeraAplicacion\Finally\Finally\obj\Debug\net6.0\Finally.dll
+D:\C#\primeraAplicacion\Finally\Finally\obj\Debug\net6.0\ref\Finally.dll
+D:\C#\primeraAplicacion\Finally\Finally\obj\Debug\net6.0\Finally.pdb
+D:\C#\primeraAplicacion\Finally\Finally\obj\Debug\net6.0\Finally.genruntimeconfig.cache

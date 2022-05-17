@@ -1,0 +1,15 @@
+D:\C#\primeraAplicacion\LanzamientoExcepciones\LanzamientoExcepciones\bin\Debug\net6.0\LanzamientoExcepciones.exe
+D:\C#\primeraAplicacion\LanzamientoExcepciones\LanzamientoExcepciones\bin\Debug\net6.0\LanzamientoExcepciones.deps.json
+D:\C#\primeraAplicacion\LanzamientoExcepciones\LanzamientoExcepciones\bin\Debug\net6.0\LanzamientoExcepciones.runtimeconfig.json
+D:\C#\primeraAplicacion\LanzamientoExcepciones\LanzamientoExcepciones\bin\Debug\net6.0\LanzamientoExcepciones.dll
+D:\C#\primeraAplicacion\LanzamientoExcepciones\LanzamientoExcepciones\bin\Debug\net6.0\ref\LanzamientoExcepciones.dll
+D:\C#\primeraAplicacion\LanzamientoExcepciones\LanzamientoExcepciones\bin\Debug\net6.0\LanzamientoExcepciones.pdb
+D:\C#\primeraAplicacion\LanzamientoExcepciones\LanzamientoExcepciones\obj\Debug\net6.0\LanzamientoExcepciones.csproj.AssemblyReference.cache
+D:\C#\primeraAplicacion\LanzamientoExcepciones\LanzamientoExcepciones\obj\Debug\net6.0\LanzamientoExcepciones.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\primeraAplicacion\LanzamientoExcepciones\LanzamientoExcepciones\obj\Debug\net6.0\LanzamientoExcepciones.AssemblyInfoInputs.cache
+D:\C#\primeraAplicacion\LanzamientoExcepciones\LanzamientoExcepciones\obj\Debug\net6.0\LanzamientoExcepciones.AssemblyInfo.cs
+D:\C#\primeraAplicacion\LanzamientoExcepciones\LanzamientoExcepciones\obj\Debug\net6.0\LanzamientoExcepciones.csproj.CoreCompileInputs.cache
+D:\C#\primeraAplicacion\LanzamientoExcepciones\LanzamientoExcepciones\obj\Debug\net6.0\LanzamientoExcepciones.dll
+D:\C#\primeraAplicacion\LanzamientoExcepciones\LanzamientoExcepciones\obj\Debug\net6.0\ref\LanzamientoExcepciones.dll
+D:\C#\primeraAplicacion\LanzamientoExcepciones\LanzamientoExcepciones\obj\Debug\net6.0\LanzamientoExcepciones.pdb
+D:\C#\primeraAplicacion\LanzamientoExcepciones\LanzamientoExcepciones\obj\Debug\net6.0\LanzamientoExcepciones.genruntimeconfig.cache

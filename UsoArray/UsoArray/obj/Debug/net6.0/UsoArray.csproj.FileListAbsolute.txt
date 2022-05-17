@@ -1,0 +1,15 @@
+D:\C#\primeraAplicacion\UsoArray\UsoArray\bin\Debug\net6.0\UsoArray.exe
+D:\C#\primeraAplicacion\UsoArray\UsoArray\bin\Debug\net6.0\UsoArray.deps.json
+D:\C#\primeraAplicacion\UsoArray\UsoArray\bin\Debug\net6.0\UsoArray.runtimeconfig.json
+D:\C#\primeraAplicacion\UsoArray\UsoArray\bin\Debug\net6.0\UsoArray.dll
+D:\C#\primeraAplicacion\UsoArray\UsoArray\bin\Debug\net6.0\ref\UsoArray.dll
+D:\C#\primeraAplicacion\UsoArray\UsoArray\bin\Debug\net6.0\UsoArray.pdb
+D:\C#\primeraAplicacion\UsoArray\UsoArray\obj\Debug\net6.0\UsoArray.csproj.AssemblyReference.cache
+D:\C#\primeraAplicacion\UsoArray\UsoArray\obj\Debug\net6.0\UsoArray.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\primeraAplicacion\UsoArray\UsoArray\obj\Debug\net6.0\UsoArray.AssemblyInfoInputs.cache
+D:\C#\primeraAplicacion\UsoArray\UsoArray\obj\Debug\net6.0\UsoArray.AssemblyInfo.cs
+D:\C#\primeraAplicacion\UsoArray\UsoArray\obj\Debug\net6.0\UsoArray.csproj.CoreCompileInputs.cache
+D:\C#\primeraAplicacion\UsoArray\UsoArray\obj\Debug\net6.0\UsoArray.dll
+D:\C#\primeraAplicacion\UsoArray\UsoArray\obj\Debug\net6.0\ref\UsoArray.dll
+D:\C#\primeraAplicacion\UsoArray\UsoArray\obj\Debug\net6.0\UsoArray.pdb
+D:\C#\primeraAplicacion\UsoArray\UsoArray\obj\Debug\net6.0\UsoArray.genruntimeconfig.cache

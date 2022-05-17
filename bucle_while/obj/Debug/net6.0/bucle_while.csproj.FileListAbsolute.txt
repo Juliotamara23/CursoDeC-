@@ -1,0 +1,15 @@
+D:\C#\primeraAplicacion\bucle_while\bin\Debug\net6.0\bucle_while.exe
+D:\C#\primeraAplicacion\bucle_while\bin\Debug\net6.0\bucle_while.deps.json
+D:\C#\primeraAplicacion\bucle_while\bin\Debug\net6.0\bucle_while.runtimeconfig.json
+D:\C#\primeraAplicacion\bucle_while\bin\Debug\net6.0\bucle_while.dll
+D:\C#\primeraAplicacion\bucle_while\bin\Debug\net6.0\ref\bucle_while.dll
+D:\C#\primeraAplicacion\bucle_while\bin\Debug\net6.0\bucle_while.pdb
+D:\C#\primeraAplicacion\bucle_while\obj\Debug\net6.0\bucle_while.csproj.AssemblyReference.cache
+D:\C#\primeraAplicacion\bucle_while\obj\Debug\net6.0\bucle_while.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\primeraAplicacion\bucle_while\obj\Debug\net6.0\bucle_while.AssemblyInfoInputs.cache
+D:\C#\primeraAplicacion\bucle_while\obj\Debug\net6.0\bucle_while.AssemblyInfo.cs
+D:\C#\primeraAplicacion\bucle_while\obj\Debug\net6.0\bucle_while.csproj.CoreCompileInputs.cache
+D:\C#\primeraAplicacion\bucle_while\obj\Debug\net6.0\bucle_while.dll
+D:\C#\primeraAplicacion\bucle_while\obj\Debug\net6.0\ref\bucle_while.dll
+D:\C#\primeraAplicacion\bucle_while\obj\Debug\net6.0\bucle_while.pdb
+D:\C#\primeraAplicacion\bucle_while\obj\Debug\net6.0\bucle_while.genruntimeconfig.cache

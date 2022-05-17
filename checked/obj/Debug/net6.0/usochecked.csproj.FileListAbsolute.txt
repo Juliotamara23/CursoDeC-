@@ -1,0 +1,15 @@
+D:\C#\primeraAplicacion\checked\bin\Debug\net6.0\usochecked.exe
+D:\C#\primeraAplicacion\checked\bin\Debug\net6.0\usochecked.deps.json
+D:\C#\primeraAplicacion\checked\bin\Debug\net6.0\usochecked.runtimeconfig.json
+D:\C#\primeraAplicacion\checked\bin\Debug\net6.0\usochecked.dll
+D:\C#\primeraAplicacion\checked\bin\Debug\net6.0\ref\usochecked.dll
+D:\C#\primeraAplicacion\checked\bin\Debug\net6.0\usochecked.pdb
+D:\C#\primeraAplicacion\checked\obj\Debug\net6.0\usochecked.csproj.AssemblyReference.cache
+D:\C#\primeraAplicacion\checked\obj\Debug\net6.0\usochecked.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\primeraAplicacion\checked\obj\Debug\net6.0\usochecked.AssemblyInfoInputs.cache
+D:\C#\primeraAplicacion\checked\obj\Debug\net6.0\usochecked.AssemblyInfo.cs
+D:\C#\primeraAplicacion\checked\obj\Debug\net6.0\usochecked.csproj.CoreCompileInputs.cache
+D:\C#\primeraAplicacion\checked\obj\Debug\net6.0\usochecked.dll
+D:\C#\primeraAplicacion\checked\obj\Debug\net6.0\ref\usochecked.dll
+D:\C#\primeraAplicacion\checked\obj\Debug\net6.0\usochecked.pdb
+D:\C#\primeraAplicacion\checked\obj\Debug\net6.0\usochecked.genruntimeconfig.cache

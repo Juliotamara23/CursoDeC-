@@ -1,0 +1,15 @@
+D:\C#\primeraAplicacion\ConceptosPOO\ConceptosPOO\obj\Debug\net6.0\ConceptosPOO.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\primeraAplicacion\ConceptosPOO\ConceptosPOO\obj\Debug\net6.0\ConceptosPOO.AssemblyInfoInputs.cache
+D:\C#\primeraAplicacion\ConceptosPOO\ConceptosPOO\obj\Debug\net6.0\ConceptosPOO.AssemblyInfo.cs
+D:\C#\primeraAplicacion\ConceptosPOO\ConceptosPOO\obj\Debug\net6.0\ConceptosPOO.csproj.CoreCompileInputs.cache
+D:\C#\primeraAplicacion\ConceptosPOO\ConceptosPOO\bin\Debug\net6.0\ConceptosPOO.exe
+D:\C#\primeraAplicacion\ConceptosPOO\ConceptosPOO\bin\Debug\net6.0\ConceptosPOO.deps.json
+D:\C#\primeraAplicacion\ConceptosPOO\ConceptosPOO\bin\Debug\net6.0\ConceptosPOO.runtimeconfig.json
+D:\C#\primeraAplicacion\ConceptosPOO\ConceptosPOO\bin\Debug\net6.0\ConceptosPOO.dll
+D:\C#\primeraAplicacion\ConceptosPOO\ConceptosPOO\bin\Debug\net6.0\ref\ConceptosPOO.dll
+D:\C#\primeraAplicacion\ConceptosPOO\ConceptosPOO\bin\Debug\net6.0\ConceptosPOO.pdb
+D:\C#\primeraAplicacion\ConceptosPOO\ConceptosPOO\obj\Debug\net6.0\ConceptosPOO.dll
+D:\C#\primeraAplicacion\ConceptosPOO\ConceptosPOO\obj\Debug\net6.0\ref\ConceptosPOO.dll
+D:\C#\primeraAplicacion\ConceptosPOO\ConceptosPOO\obj\Debug\net6.0\ConceptosPOO.pdb
+D:\C#\primeraAplicacion\ConceptosPOO\ConceptosPOO\obj\Debug\net6.0\ConceptosPOO.genruntimeconfig.cache
+D:\C#\primeraAplicacion\ConceptosPOO\ConceptosPOO\obj\Debug\net6.0\ConceptosPOO.csproj.AssemblyReference.cache

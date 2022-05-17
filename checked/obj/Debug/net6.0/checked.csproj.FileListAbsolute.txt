@@ -1,0 +1,5 @@
+D:\C#\primeraAplicacion\checked\obj\Debug\net6.0\checked.csproj.AssemblyReference.cache
+D:\C#\primeraAplicacion\checked\obj\Debug\net6.0\checked.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\primeraAplicacion\checked\obj\Debug\net6.0\checked.AssemblyInfoInputs.cache
+D:\C#\primeraAplicacion\checked\obj\Debug\net6.0\checked.AssemblyInfo.cs
+D:\C#\primeraAplicacion\checked\obj\Debug\net6.0\checked.csproj.CoreCompileInputs.cache

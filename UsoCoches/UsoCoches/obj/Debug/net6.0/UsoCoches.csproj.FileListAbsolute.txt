@@ -1,0 +1,15 @@
+D:\C#\primeraAplicacion\UsoCoches\UsoCoches\bin\Debug\net6.0\UsoCoches.exe
+D:\C#\primeraAplicacion\UsoCoches\UsoCoches\bin\Debug\net6.0\UsoCoches.deps.json
+D:\C#\primeraAplicacion\UsoCoches\UsoCoches\bin\Debug\net6.0\UsoCoches.runtimeconfig.json
+D:\C#\primeraAplicacion\UsoCoches\UsoCoches\bin\Debug\net6.0\UsoCoches.dll
+D:\C#\primeraAplicacion\UsoCoches\UsoCoches\bin\Debug\net6.0\ref\UsoCoches.dll
+D:\C#\primeraAplicacion\UsoCoches\UsoCoches\bin\Debug\net6.0\UsoCoches.pdb
+D:\C#\primeraAplicacion\UsoCoches\UsoCoches\obj\Debug\net6.0\UsoCoches.csproj.AssemblyReference.cache
+D:\C#\primeraAplicacion\UsoCoches\UsoCoches\obj\Debug\net6.0\UsoCoches.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\primeraAplicacion\UsoCoches\UsoCoches\obj\Debug\net6.0\UsoCoches.AssemblyInfoInputs.cache
+D:\C#\primeraAplicacion\UsoCoches\UsoCoches\obj\Debug\net6.0\UsoCoches.AssemblyInfo.cs
+D:\C#\primeraAplicacion\UsoCoches\UsoCoches\obj\Debug\net6.0\UsoCoches.csproj.CoreCompileInputs.cache
+D:\C#\primeraAplicacion\UsoCoches\UsoCoches\obj\Debug\net6.0\UsoCoches.dll
+D:\C#\primeraAplicacion\UsoCoches\UsoCoches\obj\Debug\net6.0\ref\UsoCoches.dll
+D:\C#\primeraAplicacion\UsoCoches\UsoCoches\obj\Debug\net6.0\UsoCoches.pdb
+D:\C#\primeraAplicacion\UsoCoches\UsoCoches\obj\Debug\net6.0\UsoCoches.genruntimeconfig.cache

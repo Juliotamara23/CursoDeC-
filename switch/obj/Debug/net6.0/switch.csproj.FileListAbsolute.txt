@@ -1,0 +1,15 @@
+D:\C#\primeraAplicacion\switch\obj\Debug\net6.0\switch.csproj.AssemblyReference.cache
+D:\C#\primeraAplicacion\switch\obj\Debug\net6.0\switch.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\primeraAplicacion\switch\obj\Debug\net6.0\switch.AssemblyInfoInputs.cache
+D:\C#\primeraAplicacion\switch\obj\Debug\net6.0\switch.AssemblyInfo.cs
+D:\C#\primeraAplicacion\switch\obj\Debug\net6.0\switch.csproj.CoreCompileInputs.cache
+D:\C#\primeraAplicacion\switch\bin\Debug\net6.0\switch.exe
+D:\C#\primeraAplicacion\switch\bin\Debug\net6.0\switch.deps.json
+D:\C#\primeraAplicacion\switch\bin\Debug\net6.0\switch.runtimeconfig.json
+D:\C#\primeraAplicacion\switch\bin\Debug\net6.0\switch.dll
+D:\C#\primeraAplicacion\switch\bin\Debug\net6.0\ref\switch.dll
+D:\C#\primeraAplicacion\switch\bin\Debug\net6.0\switch.pdb
+D:\C#\primeraAplicacion\switch\obj\Debug\net6.0\switch.dll
+D:\C#\primeraAplicacion\switch\obj\Debug\net6.0\ref\switch.dll
+D:\C#\primeraAplicacion\switch\obj\Debug\net6.0\switch.pdb
+D:\C#\primeraAplicacion\switch\obj\Debug\net6.0\switch.genruntimeconfig.cache
