@@ -1,0 +1,15 @@
+D:\C#\primeraAplicacion\AvisosVarios\AvisosVarios\bin\Debug\net6.0\AvisosVarios.exe
+D:\C#\primeraAplicacion\AvisosVarios\AvisosVarios\bin\Debug\net6.0\AvisosVarios.deps.json
+D:\C#\primeraAplicacion\AvisosVarios\AvisosVarios\bin\Debug\net6.0\AvisosVarios.runtimeconfig.json
+D:\C#\primeraAplicacion\AvisosVarios\AvisosVarios\bin\Debug\net6.0\AvisosVarios.dll
+D:\C#\primeraAplicacion\AvisosVarios\AvisosVarios\bin\Debug\net6.0\AvisosVarios.pdb
+D:\C#\primeraAplicacion\AvisosVarios\AvisosVarios\obj\Debug\net6.0\AvisosVarios.csproj.AssemblyReference.cache
+D:\C#\primeraAplicacion\AvisosVarios\AvisosVarios\obj\Debug\net6.0\AvisosVarios.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\primeraAplicacion\AvisosVarios\AvisosVarios\obj\Debug\net6.0\AvisosVarios.AssemblyInfoInputs.cache
+D:\C#\primeraAplicacion\AvisosVarios\AvisosVarios\obj\Debug\net6.0\AvisosVarios.AssemblyInfo.cs
+D:\C#\primeraAplicacion\AvisosVarios\AvisosVarios\obj\Debug\net6.0\AvisosVarios.csproj.CoreCompileInputs.cache
+D:\C#\primeraAplicacion\AvisosVarios\AvisosVarios\obj\Debug\net6.0\AvisosVarios.dll
+D:\C#\primeraAplicacion\AvisosVarios\AvisosVarios\obj\Debug\net6.0\refint\AvisosVarios.dll
+D:\C#\primeraAplicacion\AvisosVarios\AvisosVarios\obj\Debug\net6.0\AvisosVarios.pdb
+D:\C#\primeraAplicacion\AvisosVarios\AvisosVarios\obj\Debug\net6.0\AvisosVarios.genruntimeconfig.cache
+D:\C#\primeraAplicacion\AvisosVarios\AvisosVarios\obj\Debug\net6.0\ref\AvisosVarios.dll
