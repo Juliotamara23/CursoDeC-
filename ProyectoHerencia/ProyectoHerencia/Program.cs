@@ -8,6 +8,7 @@ namespace ProyectoHerencia
         {
 
             Caballo Babieca = new Caballo("Babieca");
+            ISaltoConPatas IBabieca = Babieca;
             Humano Juan = new Humano("Juan");
             Gorila Copito = new Gorila("Copito");
 
@@ -26,7 +27,31 @@ namespace ProyectoHerencia
             //Babieca.getNombre();
             //Copito.getNombre();
 
+            Ballena miWally = new Ballena("Wally");
+
+            miWally.nada();
+
+            Console.WriteLine("Numero de patas de Babieca usadas para el salto: "
+                + IBabieca.numeroPatas());
+
         }
+    }
+
+    interface IMamiferosTerrestres
+    {
+        int numeroPatas();
+    }
+
+    interface IAnimalesYDeportes
+    {
+        string tipoDeporte();
+
+        Boolean esOlimpico();
+    }
+
+    interface ISaltoConPatas
+    {
+        int numeroPatas();
     }
 
     class Mamiferos
@@ -60,7 +85,20 @@ namespace ProyectoHerencia
         private String nombreSerVivo;
     }
 
-    class Caballo : Mamiferos
+    class Ballena : Mamiferos
+    {
+        public Ballena(string nombreBallena) : base(nombreBallena)
+        {
+
+        }
+
+        public void nada()
+        {
+            Console.WriteLine("Soy capaz de nadar");
+        }
+    }
+
+    class Caballo : Mamiferos, IMamiferosTerrestres, IAnimalesYDeportes, ISaltoConPatas
     {
 
         public Caballo(String nombreCaballo) : base(nombreCaballo)
@@ -71,6 +109,28 @@ namespace ProyectoHerencia
         public void galopar()
         {
             Console.WriteLine("Soy capaz de galopar");
+
+            //respirar();
+        }
+
+        int IMamiferosTerrestres.numeroPatas()
+        {
+            return 4;
+        }
+
+        int ISaltoConPatas.numeroPatas()
+        {
+            return 2;
+        }
+
+        public string tipoDeporte()
+        {
+            return "Hipica";
+        }
+
+        public Boolean esOlimpico()
+        {
+            return true;
         }
     }
 
@@ -88,7 +148,7 @@ namespace ProyectoHerencia
         }
     }
 
-    class Gorila : Mamiferos
+    class Gorila : Mamiferos, IMamiferosTerrestres
     {
 
         public Gorila(String nombreGorila) : base(nombreGorila)
@@ -104,6 +164,11 @@ namespace ProyectoHerencia
         public void trepar()
         {
             Console.WriteLine("Soy capaz de trepar");
+        }
+
+        public int numeroPatas()
+        {
+            return 2;
         }
     }
 }
