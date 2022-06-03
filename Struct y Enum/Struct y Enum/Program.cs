@@ -1,30 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Empleado empleado1 = new Empleado(1200,250);
+using Struct_y_Enum;
+using static Struct_y_Enum.Enum;
 
-empleado1.cambiaSalario(empleado1, 100);
+//Empleado empleado1 = new Empleado(1200,250);
 
-Console.WriteLine(empleado1);
+//empleado1.cambiaSalario(empleado1, 100);
 
-public struct Empleado
-{
-    public double salarioBase, comision;
+//Console.WriteLine(empleado1);
 
-    public Empleado(int salarioBase, int comision)
-    {
-        this.salarioBase = salarioBase;
-        this.comision = comision;
-    }
-
-    public override string ToString()
-    {
-        return string.Format("Salario y comision del empleado ({0},{1})",
-            this.salarioBase, this.comision);
-    }
-
-    public void cambiaSalario(Empleado emp, double incremento)
-    {
-        emp.salarioBase = incremento+salarioBase;
-        emp.comision = incremento+comision;
-    }
-}
+Empleado Juan = new Empleado(Bonus.extra, 1900.50);
+Console.WriteLine("El salario del empleado es: " + Juan.getSalario());
