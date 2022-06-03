@@ -7,32 +7,38 @@ namespace ProyectoHerencia
         static void Main(string[] args)
         {
 
-            Caballo Babieca = new Caballo("Babieca");
-            ISaltoConPatas IBabieca = Babieca;
+            //Caballo Babieca = new Caballo("Babieca");
+            //ISaltoConPatas IBabieca = Babieca;
+            //Humano Juan = new Humano("Juan");
+            //Gorila Copito = new Gorila("Copito");
+
+            //Mamiferos[] almacenAnimales = new Mamiferos[3];
+
+            //almacenAnimales[0] = Babieca;
+            //almacenAnimales[1] = Juan;
+            //almacenAnimales[2] = Copito;
+
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    almacenAnimales[i].pensar();
+            //}
+
+            ////Juan.getNombre();
+            ////Babieca.getNombre();
+            ////Copito.getNombre();
+
+            //Ballena miWally = new Ballena("Wally");
+
+            //miWally.nada();
+
+            //Console.WriteLine("Numero de patas de Babieca usadas para el salto: "
+            //    + IBabieca.numeroPatas());
+
+            lagartija Juancho = new lagartija("Juancho");
+            Juancho.getNombre();
+
             Humano Juan = new Humano("Juan");
-            Gorila Copito = new Gorila("Copito");
-
-            Mamiferos[] almacenAnimales = new Mamiferos[3];
-
-            almacenAnimales[0] = Babieca;
-            almacenAnimales[1] = Juan;
-            almacenAnimales[2] = Copito;
-
-            for (int i = 0; i < 3; i++)
-            {
-                almacenAnimales[i].pensar();
-            }
-
-            //Juan.getNombre();
-            //Babieca.getNombre();
-            //Copito.getNombre();
-
-            Ballena miWally = new Ballena("Wally");
-
-            miWally.nada();
-
-            Console.WriteLine("Numero de patas de Babieca usadas para el salto: "
-                + IBabieca.numeroPatas());
+            Juan.getNombre();
 
         }
     }
@@ -54,17 +60,38 @@ namespace ProyectoHerencia
         int numeroPatas();
     }
 
-    class Mamiferos
+    abstract class Animales
+    {
+        public void respirar()
+        {
+            Console.WriteLine("Soy capaz de respirar");
+        }
+
+        public abstract void getNombre();
+    }
+
+    class lagartija : Animales
+    {
+
+        public lagartija(String nombre)
+        {
+            nombreReptil = nombre;
+        }
+
+        public override void getNombre()
+        {
+            Console.WriteLine("El nombre del reptil es: " + nombreReptil);
+        }
+
+        private String nombreReptil;
+    }
+
+    class Mamiferos:Animales
     {
 
         public Mamiferos(String nombre)
         {
             nombreSerVivo = nombre;
-        }
-
-        public void respirar()
-        {
-            Console.WriteLine("Soy capaz de respirar");
         }
 
         public virtual void pensar()
@@ -77,9 +104,9 @@ namespace ProyectoHerencia
             Console.WriteLine("Cuido de mis crias hasta que se valgan solas por si solas");
         }
 
-        public void getNombre()
+        public override void getNombre()
         {
-            Console.WriteLine("El nombre del ser vivo es: " + nombreSerVivo);
+            Console.WriteLine("El nombre del mamifero es: " + nombreSerVivo);
         }
 
         private String nombreSerVivo;
@@ -171,4 +198,5 @@ namespace ProyectoHerencia
             return 2;
         }
     }
+
 }
