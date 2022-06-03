@@ -1,0 +1,15 @@
+D:\C#\primeraAplicacion\Genericos\Genericos\bin\Debug\net6.0\Genericos.exe
+D:\C#\primeraAplicacion\Genericos\Genericos\bin\Debug\net6.0\Genericos.deps.json
+D:\C#\primeraAplicacion\Genericos\Genericos\bin\Debug\net6.0\Genericos.runtimeconfig.json
+D:\C#\primeraAplicacion\Genericos\Genericos\bin\Debug\net6.0\Genericos.dll
+D:\C#\primeraAplicacion\Genericos\Genericos\bin\Debug\net6.0\Genericos.pdb
+D:\C#\primeraAplicacion\Genericos\Genericos\obj\Debug\net6.0\Genericos.csproj.AssemblyReference.cache
+D:\C#\primeraAplicacion\Genericos\Genericos\obj\Debug\net6.0\Genericos.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\primeraAplicacion\Genericos\Genericos\obj\Debug\net6.0\Genericos.AssemblyInfoInputs.cache
+D:\C#\primeraAplicacion\Genericos\Genericos\obj\Debug\net6.0\Genericos.AssemblyInfo.cs
+D:\C#\primeraAplicacion\Genericos\Genericos\obj\Debug\net6.0\Genericos.csproj.CoreCompileInputs.cache
+D:\C#\primeraAplicacion\Genericos\Genericos\obj\Debug\net6.0\Genericos.dll
+D:\C#\primeraAplicacion\Genericos\Genericos\obj\Debug\net6.0\refint\Genericos.dll
+D:\C#\primeraAplicacion\Genericos\Genericos\obj\Debug\net6.0\Genericos.pdb
+D:\C#\primeraAplicacion\Genericos\Genericos\obj\Debug\net6.0\Genericos.genruntimeconfig.cache
+D:\C#\primeraAplicacion\Genericos\Genericos\obj\Debug\net6.0\ref\Genericos.dll
