@@ -1,0 +1,15 @@
+D:\C#\primeraAplicacion\PropiedadesAcceso\PropiedadesAcceso\bin\Debug\net6.0\PropiedadesAcceso.exe
+D:\C#\primeraAplicacion\PropiedadesAcceso\PropiedadesAcceso\bin\Debug\net6.0\PropiedadesAcceso.deps.json
+D:\C#\primeraAplicacion\PropiedadesAcceso\PropiedadesAcceso\bin\Debug\net6.0\PropiedadesAcceso.runtimeconfig.json
+D:\C#\primeraAplicacion\PropiedadesAcceso\PropiedadesAcceso\bin\Debug\net6.0\PropiedadesAcceso.dll
+D:\C#\primeraAplicacion\PropiedadesAcceso\PropiedadesAcceso\bin\Debug\net6.0\PropiedadesAcceso.pdb
+D:\C#\primeraAplicacion\PropiedadesAcceso\PropiedadesAcceso\obj\Debug\net6.0\PropiedadesAcceso.csproj.AssemblyReference.cache
+D:\C#\primeraAplicacion\PropiedadesAcceso\PropiedadesAcceso\obj\Debug\net6.0\PropiedadesAcceso.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\primeraAplicacion\PropiedadesAcceso\PropiedadesAcceso\obj\Debug\net6.0\PropiedadesAcceso.AssemblyInfoInputs.cache
+D:\C#\primeraAplicacion\PropiedadesAcceso\PropiedadesAcceso\obj\Debug\net6.0\PropiedadesAcceso.AssemblyInfo.cs
+D:\C#\primeraAplicacion\PropiedadesAcceso\PropiedadesAcceso\obj\Debug\net6.0\PropiedadesAcceso.csproj.CoreCompileInputs.cache
+D:\C#\primeraAplicacion\PropiedadesAcceso\PropiedadesAcceso\obj\Debug\net6.0\PropiedadesAcceso.dll
+D:\C#\primeraAplicacion\PropiedadesAcceso\PropiedadesAcceso\obj\Debug\net6.0\refint\PropiedadesAcceso.dll
+D:\C#\primeraAplicacion\PropiedadesAcceso\PropiedadesAcceso\obj\Debug\net6.0\PropiedadesAcceso.pdb
+D:\C#\primeraAplicacion\PropiedadesAcceso\PropiedadesAcceso\obj\Debug\net6.0\PropiedadesAcceso.genruntimeconfig.cache
+D:\C#\primeraAplicacion\PropiedadesAcceso\PropiedadesAcceso\obj\Debug\net6.0\ref\PropiedadesAcceso.dll
