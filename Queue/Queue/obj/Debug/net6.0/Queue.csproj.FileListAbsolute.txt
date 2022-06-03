@@ -1,0 +1,15 @@
+D:\C#\primeraAplicacion\Queue\Queue\bin\Debug\net6.0\Queue.exe
+D:\C#\primeraAplicacion\Queue\Queue\bin\Debug\net6.0\Queue.deps.json
+D:\C#\primeraAplicacion\Queue\Queue\bin\Debug\net6.0\Queue.runtimeconfig.json
+D:\C#\primeraAplicacion\Queue\Queue\bin\Debug\net6.0\Queue.dll
+D:\C#\primeraAplicacion\Queue\Queue\bin\Debug\net6.0\Queue.pdb
+D:\C#\primeraAplicacion\Queue\Queue\obj\Debug\net6.0\Queue.csproj.AssemblyReference.cache
+D:\C#\primeraAplicacion\Queue\Queue\obj\Debug\net6.0\Queue.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\primeraAplicacion\Queue\Queue\obj\Debug\net6.0\Queue.AssemblyInfoInputs.cache
+D:\C#\primeraAplicacion\Queue\Queue\obj\Debug\net6.0\Queue.AssemblyInfo.cs
+D:\C#\primeraAplicacion\Queue\Queue\obj\Debug\net6.0\Queue.csproj.CoreCompileInputs.cache
+D:\C#\primeraAplicacion\Queue\Queue\obj\Debug\net6.0\Queue.dll
+D:\C#\primeraAplicacion\Queue\Queue\obj\Debug\net6.0\refint\Queue.dll
+D:\C#\primeraAplicacion\Queue\Queue\obj\Debug\net6.0\Queue.pdb
+D:\C#\primeraAplicacion\Queue\Queue\obj\Debug\net6.0\Queue.genruntimeconfig.cache
+D:\C#\primeraAplicacion\Queue\Queue\obj\Debug\net6.0\ref\Queue.dll
