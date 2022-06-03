@@ -1,0 +1,15 @@
+D:\C#\primeraAplicacion\Struct y Enum\Struct y Enum\bin\Debug\net6.0\Struct y Enum.exe
+D:\C#\primeraAplicacion\Struct y Enum\Struct y Enum\bin\Debug\net6.0\Struct y Enum.deps.json
+D:\C#\primeraAplicacion\Struct y Enum\Struct y Enum\bin\Debug\net6.0\Struct y Enum.runtimeconfig.json
+D:\C#\primeraAplicacion\Struct y Enum\Struct y Enum\bin\Debug\net6.0\Struct y Enum.dll
+D:\C#\primeraAplicacion\Struct y Enum\Struct y Enum\bin\Debug\net6.0\Struct y Enum.pdb
+D:\C#\primeraAplicacion\Struct y Enum\Struct y Enum\obj\Debug\net6.0\Struct y Enum.csproj.AssemblyReference.cache
+D:\C#\primeraAplicacion\Struct y Enum\Struct y Enum\obj\Debug\net6.0\Struct y Enum.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\primeraAplicacion\Struct y Enum\Struct y Enum\obj\Debug\net6.0\Struct y Enum.AssemblyInfoInputs.cache
+D:\C#\primeraAplicacion\Struct y Enum\Struct y Enum\obj\Debug\net6.0\Struct y Enum.AssemblyInfo.cs
+D:\C#\primeraAplicacion\Struct y Enum\Struct y Enum\obj\Debug\net6.0\Struct y Enum.csproj.CoreCompileInputs.cache
+D:\C#\primeraAplicacion\Struct y Enum\Struct y Enum\obj\Debug\net6.0\Struct y Enum.dll
+D:\C#\primeraAplicacion\Struct y Enum\Struct y Enum\obj\Debug\net6.0\refint\Struct y Enum.dll
+D:\C#\primeraAplicacion\Struct y Enum\Struct y Enum\obj\Debug\net6.0\Struct y Enum.pdb
+D:\C#\primeraAplicacion\Struct y Enum\Struct y Enum\obj\Debug\net6.0\Struct y Enum.genruntimeconfig.cache
+D:\C#\primeraAplicacion\Struct y Enum\Struct y Enum\obj\Debug\net6.0\ref\Struct y Enum.dll
