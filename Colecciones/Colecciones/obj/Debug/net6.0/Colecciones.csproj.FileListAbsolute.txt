@@ -1,0 +1,15 @@
+D:\C#\primeraAplicacion\Colecciones\Colecciones\bin\Debug\net6.0\Colecciones.exe
+D:\C#\primeraAplicacion\Colecciones\Colecciones\bin\Debug\net6.0\Colecciones.deps.json
+D:\C#\primeraAplicacion\Colecciones\Colecciones\bin\Debug\net6.0\Colecciones.runtimeconfig.json
+D:\C#\primeraAplicacion\Colecciones\Colecciones\bin\Debug\net6.0\Colecciones.dll
+D:\C#\primeraAplicacion\Colecciones\Colecciones\bin\Debug\net6.0\Colecciones.pdb
+D:\C#\primeraAplicacion\Colecciones\Colecciones\obj\Debug\net6.0\Colecciones.csproj.AssemblyReference.cache
+D:\C#\primeraAplicacion\Colecciones\Colecciones\obj\Debug\net6.0\Colecciones.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\primeraAplicacion\Colecciones\Colecciones\obj\Debug\net6.0\Colecciones.AssemblyInfoInputs.cache
+D:\C#\primeraAplicacion\Colecciones\Colecciones\obj\Debug\net6.0\Colecciones.AssemblyInfo.cs
+D:\C#\primeraAplicacion\Colecciones\Colecciones\obj\Debug\net6.0\Colecciones.csproj.CoreCompileInputs.cache
+D:\C#\primeraAplicacion\Colecciones\Colecciones\obj\Debug\net6.0\Colecciones.dll
+D:\C#\primeraAplicacion\Colecciones\Colecciones\obj\Debug\net6.0\refint\Colecciones.dll
+D:\C#\primeraAplicacion\Colecciones\Colecciones\obj\Debug\net6.0\Colecciones.pdb
+D:\C#\primeraAplicacion\Colecciones\Colecciones\obj\Debug\net6.0\Colecciones.genruntimeconfig.cache
+D:\C#\primeraAplicacion\Colecciones\Colecciones\obj\Debug\net6.0\ref\Colecciones.dll
