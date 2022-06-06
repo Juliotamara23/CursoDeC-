@@ -64,7 +64,17 @@ namespace Primera_Interfaz
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Presionaste el boton");
+            Console.WriteLine("Presionaste el boton 2");
+        }
+
+        //private void Panel_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Console.WriteLine("Le has dado al panel");
+        //}
+
+        private void Panel_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Console.WriteLine("Le has dado al panel");
         }
     }
 }

@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:Primera_Interfaz"
         mc:Ignorable="d"
         Title="Primera interfaz" Height="450" Width="800">
-    <StackPanel>
+    
+    <StackPanel Name="Panel" PreviewMouseLeftButtonDown="Panel_PreviewMouseLeftButtonDown">
         <Button Content="Dale1!" Margin="15" Width="150" HorizontalAlignment="Left"></Button>
         <Button Content="Dale2!" Margin="15" Width="150" HorizontalAlignment="Center" Click="Button_Click"></Button>
         <Button Content="Dale3!" Margin="15" Width="150" HorizontalAlignment="Right"></Button>
