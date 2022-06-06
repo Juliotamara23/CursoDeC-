@@ -22,37 +22,49 @@ namespace Primera_Interfaz
     {
         public MainWindow()
         {
-            InitializeComponent();
+            //InitializeComponent();
 
-            Grid grid = new Grid();
+            //Grid grid = new Grid();
 
-            this.Content = grid;
+            //this.Content = grid;
 
-            Button miBoton = new Button();
+            //Button miBoton = new Button();
 
-            WrapPanel wrapPanel = new WrapPanel();
+            //miBoton.Width = 150;
+            //miBoton.Height = 75;
+            //miBoton.Background = Brushes.Blue;
 
-            TextBlock txt1 = new TextBlock();
+            //WrapPanel wrapPanel = new WrapPanel();
 
-            txt1.Text = "Click";
+            //TextBlock txt1 = new TextBlock();
 
-            wrapPanel.Children.Add(txt1);
+            //txt1.Background = Brushes.Red;
+            //txt1.Foreground = Brushes.Blue;
 
-            TextBlock txt2 = new TextBlock();
+            //txt1.Text = "Click";
 
-            txt2.Text = "Enviar";
+            //wrapPanel.Children.Add(txt1);
 
-            wrapPanel.Children.Add(txt2);
+            //TextBlock txt2 = new TextBlock();
 
-            TextBlock txt3 = new TextBlock();
+            //txt2.Text = "Enviar";
 
-            txt3.Text = "Dale";
+            //wrapPanel.Children.Add(txt2);
 
-            wrapPanel.Children.Add(txt3);
+            //TextBlock txt3 = new TextBlock();
 
-            miBoton.Content = wrapPanel;
+            //txt3.Text = "Dale";
 
-            grid.Children.Add(miBoton);
+            //wrapPanel.Children.Add(txt3);
+
+            //miBoton.Content = wrapPanel;
+
+            //grid.Children.Add(miBoton);
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Presionaste el boton");
         }
     }
 }
