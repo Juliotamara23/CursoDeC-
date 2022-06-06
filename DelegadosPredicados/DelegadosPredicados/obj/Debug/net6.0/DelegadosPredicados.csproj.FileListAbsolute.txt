@@ -1,0 +1,15 @@
+D:\C#\primeraAplicacion\DelegadosPredicados\DelegadosPredicados\bin\Debug\net6.0\DelegadosPredicados.exe
+D:\C#\primeraAplicacion\DelegadosPredicados\DelegadosPredicados\bin\Debug\net6.0\DelegadosPredicados.deps.json
+D:\C#\primeraAplicacion\DelegadosPredicados\DelegadosPredicados\bin\Debug\net6.0\DelegadosPredicados.runtimeconfig.json
+D:\C#\primeraAplicacion\DelegadosPredicados\DelegadosPredicados\bin\Debug\net6.0\DelegadosPredicados.dll
+D:\C#\primeraAplicacion\DelegadosPredicados\DelegadosPredicados\bin\Debug\net6.0\DelegadosPredicados.pdb
+D:\C#\primeraAplicacion\DelegadosPredicados\DelegadosPredicados\obj\Debug\net6.0\DelegadosPredicados.csproj.AssemblyReference.cache
+D:\C#\primeraAplicacion\DelegadosPredicados\DelegadosPredicados\obj\Debug\net6.0\DelegadosPredicados.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\primeraAplicacion\DelegadosPredicados\DelegadosPredicados\obj\Debug\net6.0\DelegadosPredicados.AssemblyInfoInputs.cache
+D:\C#\primeraAplicacion\DelegadosPredicados\DelegadosPredicados\obj\Debug\net6.0\DelegadosPredicados.AssemblyInfo.cs
+D:\C#\primeraAplicacion\DelegadosPredicados\DelegadosPredicados\obj\Debug\net6.0\DelegadosPredicados.csproj.CoreCompileInputs.cache
+D:\C#\primeraAplicacion\DelegadosPredicados\DelegadosPredicados\obj\Debug\net6.0\DelegadosPredicados.dll
+D:\C#\primeraAplicacion\DelegadosPredicados\DelegadosPredicados\obj\Debug\net6.0\refint\DelegadosPredicados.dll
+D:\C#\primeraAplicacion\DelegadosPredicados\DelegadosPredicados\obj\Debug\net6.0\DelegadosPredicados.pdb
+D:\C#\primeraAplicacion\DelegadosPredicados\DelegadosPredicados\obj\Debug\net6.0\DelegadosPredicados.genruntimeconfig.cache
+D:\C#\primeraAplicacion\DelegadosPredicados\DelegadosPredicados\obj\Debug\net6.0\ref\DelegadosPredicados.dll
