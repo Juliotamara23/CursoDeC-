@@ -1,0 +1,15 @@
+D:\C#\primeraAplicacion\Stacks\Stacks\bin\Debug\net6.0\Stacks.exe
+D:\C#\primeraAplicacion\Stacks\Stacks\bin\Debug\net6.0\Stacks.deps.json
+D:\C#\primeraAplicacion\Stacks\Stacks\bin\Debug\net6.0\Stacks.runtimeconfig.json
+D:\C#\primeraAplicacion\Stacks\Stacks\bin\Debug\net6.0\Stacks.dll
+D:\C#\primeraAplicacion\Stacks\Stacks\bin\Debug\net6.0\Stacks.pdb
+D:\C#\primeraAplicacion\Stacks\Stacks\obj\Debug\net6.0\Stacks.csproj.AssemblyReference.cache
+D:\C#\primeraAplicacion\Stacks\Stacks\obj\Debug\net6.0\Stacks.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\primeraAplicacion\Stacks\Stacks\obj\Debug\net6.0\Stacks.AssemblyInfoInputs.cache
+D:\C#\primeraAplicacion\Stacks\Stacks\obj\Debug\net6.0\Stacks.AssemblyInfo.cs
+D:\C#\primeraAplicacion\Stacks\Stacks\obj\Debug\net6.0\Stacks.csproj.CoreCompileInputs.cache
+D:\C#\primeraAplicacion\Stacks\Stacks\obj\Debug\net6.0\Stacks.dll
+D:\C#\primeraAplicacion\Stacks\Stacks\obj\Debug\net6.0\refint\Stacks.dll
+D:\C#\primeraAplicacion\Stacks\Stacks\obj\Debug\net6.0\Stacks.pdb
+D:\C#\primeraAplicacion\Stacks\Stacks\obj\Debug\net6.0\Stacks.genruntimeconfig.cache
+D:\C#\primeraAplicacion\Stacks\Stacks\obj\Debug\net6.0\ref\Stacks.dll
