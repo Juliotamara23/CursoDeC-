@@ -1,0 +1,15 @@
+D:\C#\primeraAplicacion\DelegadosPradicadosLambdas\DelegadosPradicadosLambdas\bin\Debug\net6.0\DelegadosPradicadosLambdas.exe
+D:\C#\primeraAplicacion\DelegadosPradicadosLambdas\DelegadosPradicadosLambdas\bin\Debug\net6.0\DelegadosPradicadosLambdas.deps.json
+D:\C#\primeraAplicacion\DelegadosPradicadosLambdas\DelegadosPradicadosLambdas\bin\Debug\net6.0\DelegadosPradicadosLambdas.runtimeconfig.json
+D:\C#\primeraAplicacion\DelegadosPradicadosLambdas\DelegadosPradicadosLambdas\bin\Debug\net6.0\DelegadosPradicadosLambdas.dll
+D:\C#\primeraAplicacion\DelegadosPradicadosLambdas\DelegadosPradicadosLambdas\bin\Debug\net6.0\DelegadosPradicadosLambdas.pdb
+D:\C#\primeraAplicacion\DelegadosPradicadosLambdas\DelegadosPradicadosLambdas\obj\Debug\net6.0\DelegadosPradicadosLambdas.csproj.AssemblyReference.cache
+D:\C#\primeraAplicacion\DelegadosPradicadosLambdas\DelegadosPradicadosLambdas\obj\Debug\net6.0\DelegadosPradicadosLambdas.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\primeraAplicacion\DelegadosPradicadosLambdas\DelegadosPradicadosLambdas\obj\Debug\net6.0\DelegadosPradicadosLambdas.AssemblyInfoInputs.cache
+D:\C#\primeraAplicacion\DelegadosPradicadosLambdas\DelegadosPradicadosLambdas\obj\Debug\net6.0\DelegadosPradicadosLambdas.AssemblyInfo.cs
+D:\C#\primeraAplicacion\DelegadosPradicadosLambdas\DelegadosPradicadosLambdas\obj\Debug\net6.0\DelegadosPradicadosLambdas.csproj.CoreCompileInputs.cache
+D:\C#\primeraAplicacion\DelegadosPradicadosLambdas\DelegadosPradicadosLambdas\obj\Debug\net6.0\DelegadosPradicadosLambdas.dll
+D:\C#\primeraAplicacion\DelegadosPradicadosLambdas\DelegadosPradicadosLambdas\obj\Debug\net6.0\refint\DelegadosPradicadosLambdas.dll
+D:\C#\primeraAplicacion\DelegadosPradicadosLambdas\DelegadosPradicadosLambdas\obj\Debug\net6.0\DelegadosPradicadosLambdas.pdb
+D:\C#\primeraAplicacion\DelegadosPradicadosLambdas\DelegadosPradicadosLambdas\obj\Debug\net6.0\DelegadosPradicadosLambdas.genruntimeconfig.cache
+D:\C#\primeraAplicacion\DelegadosPradicadosLambdas\DelegadosPradicadosLambdas\obj\Debug\net6.0\ref\DelegadosPradicadosLambdas.dll
