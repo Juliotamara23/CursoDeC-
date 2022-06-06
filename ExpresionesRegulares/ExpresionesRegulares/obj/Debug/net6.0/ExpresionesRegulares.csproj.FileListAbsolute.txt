@@ -1,0 +1,15 @@
+D:\C#\primeraAplicacion\ExpresionesRegulares\ExpresionesRegulares\bin\Debug\net6.0\ExpresionesRegulares.exe
+D:\C#\primeraAplicacion\ExpresionesRegulares\ExpresionesRegulares\bin\Debug\net6.0\ExpresionesRegulares.deps.json
+D:\C#\primeraAplicacion\ExpresionesRegulares\ExpresionesRegulares\bin\Debug\net6.0\ExpresionesRegulares.runtimeconfig.json
+D:\C#\primeraAplicacion\ExpresionesRegulares\ExpresionesRegulares\bin\Debug\net6.0\ExpresionesRegulares.dll
+D:\C#\primeraAplicacion\ExpresionesRegulares\ExpresionesRegulares\bin\Debug\net6.0\ExpresionesRegulares.pdb
+D:\C#\primeraAplicacion\ExpresionesRegulares\ExpresionesRegulares\obj\Debug\net6.0\ExpresionesRegulares.csproj.AssemblyReference.cache
+D:\C#\primeraAplicacion\ExpresionesRegulares\ExpresionesRegulares\obj\Debug\net6.0\ExpresionesRegulares.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\primeraAplicacion\ExpresionesRegulares\ExpresionesRegulares\obj\Debug\net6.0\ExpresionesRegulares.AssemblyInfoInputs.cache
+D:\C#\primeraAplicacion\ExpresionesRegulares\ExpresionesRegulares\obj\Debug\net6.0\ExpresionesRegulares.AssemblyInfo.cs
+D:\C#\primeraAplicacion\ExpresionesRegulares\ExpresionesRegulares\obj\Debug\net6.0\ExpresionesRegulares.csproj.CoreCompileInputs.cache
+D:\C#\primeraAplicacion\ExpresionesRegulares\ExpresionesRegulares\obj\Debug\net6.0\ExpresionesRegulares.dll
+D:\C#\primeraAplicacion\ExpresionesRegulares\ExpresionesRegulares\obj\Debug\net6.0\refint\ExpresionesRegulares.dll
+D:\C#\primeraAplicacion\ExpresionesRegulares\ExpresionesRegulares\obj\Debug\net6.0\ExpresionesRegulares.pdb
+D:\C#\primeraAplicacion\ExpresionesRegulares\ExpresionesRegulares\obj\Debug\net6.0\ExpresionesRegulares.genruntimeconfig.cache
+D:\C#\primeraAplicacion\ExpresionesRegulares\ExpresionesRegulares\obj\Debug\net6.0\ref\ExpresionesRegulares.dll
