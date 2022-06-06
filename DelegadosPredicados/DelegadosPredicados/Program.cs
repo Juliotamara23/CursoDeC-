@@ -1,7 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-List<Personas> gente = new List<Personas>();
-
 Personas P1 = new Personas();
 P1.Nombre = "Juan";
 P1.Edad = 18;
@@ -10,29 +8,11 @@ Personas P2 = new Personas();
 P2.Nombre = "Maria";
 P2.Edad = 28;
 
-Personas P3 = new Personas();
-P3.Nombre = "Ana";
-P3.Edad = 38;
+ComparaPersonas compareEdad = (persona1, persona2) => persona1 == persona2;
 
-gente.AddRange(new Personas[] { P1, P2, P3 });
+Console.WriteLine(compareEdad(P1.Edad, P2.Edad));
 
-Predicate<Personas> elPredicado = new Predicate<Personas>(ExisteJuan);
-
-bool existe = gente.Exists(elPredicado);
-
-if (existe)
-{
-    Console.WriteLine("Hay personas que se llaman Juan");
-}
-else Console.WriteLine("No hay personas que se llaman Juan");
-
-static bool ExisteJuan(Personas persona)
-{
-    if (persona.Nombre == "Juan")
-    {
-        return true;
-    }else return false;
-}
+public delegate bool ComparaPersonas(int edad1, int edad2);
 
 class Personas
 {
