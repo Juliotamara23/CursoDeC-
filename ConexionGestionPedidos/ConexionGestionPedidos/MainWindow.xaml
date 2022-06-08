@@ -7,8 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="Clientes" HorizontalAlignment="Center" Margin="0,53,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <ListBox Name="listaClientes" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="330,154,330,153"/>
+        <Label Content="Clientes" HorizontalAlignment="Left" Margin="144,48,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <ListBox Name="listaClientes" Margin="91,109,531,117" SelectionChanged="listaClientes_SelectionChanged"/>
+        <Label Content="Pedidos" HorizontalAlignment="Left" Margin="582,48,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <ListBox Name="pedidosCliente"  Margin="530,109,94,117"/>
 
     </Grid>
 </Window>
