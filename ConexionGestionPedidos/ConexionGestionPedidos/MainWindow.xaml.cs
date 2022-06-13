@@ -33,11 +33,12 @@ namespace ConexionGestionPedidos
             miConexionSql = new SqlConnection(miConexion);
 
             MuestraClientes();
+            MuestraTodosPedidos();
         }
 
         private void MuestraClientes()
         {
-            string consulta = "Select * from cliente";
+            string consulta = "SELECT * FROM cliente";
 
             SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(consulta, miConexionSql);
 
@@ -56,8 +57,8 @@ namespace ConexionGestionPedidos
 
         private void MuestraPedidos()
         {
-            string consulta = "Select * from Pedido p inner join cliente c on c.ID=p.cCliente " +
-                "where C.ID=@ClienteId";
+            string consulta = "SELECT * FROM Pedido p INNER JOIN cliente c ON c.ID=p.cCliente " +
+                "WHERE C.ID=@ClienteId";
 
             SqlCommand sqlComando = new SqlCommand(consulta, miConexionSql);
 
@@ -79,12 +80,48 @@ namespace ConexionGestionPedidos
             }
         }
 
+        private void MuestraTodosPedidos()
+        {
+            string consulta = "SELECT *, CONCAT (CCliente, ' ', fechaPedido, ' ', formaPago) AS InfoCompleta FROM pedido ";
+
+            SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(consulta, miConexionSql);
+
+            using (miAdaptadorSql)
+            {
+                DataTable pedidosTabla = new DataTable();
+                miAdaptadorSql.Fill(pedidosTabla);
+
+                todosPedidos.DisplayMemberPath = "InfoCompleta";
+                todosPedidos.SelectedValuePath = "Id";
+                todosPedidos.ItemsSource = pedidosTabla.DefaultView;
+            }
+        }
+
         SqlConnection miConexionSql;
 
         private void listaClientes_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             //MessageBox.Show("Has hecho click en un cliente");
             MuestraPedidos();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            //MessageBox.Show(todosPedidos.SelectedValue.ToString());
+
+            string consulta = "DELETE FROM pedido WHERE ID = @PedidoId";
+
+            SqlCommand miSqlCommand = new SqlCommand(consulta, miConexionSql);
+
+            miConexionSql.Open();
+
+            miSqlCommand.Parameters.AddWithValue("@PedidoId", todosPedidos.SelectedValue);
+
+            miSqlCommand.ExecuteNonQuery();
+
+            miConexionSql.Close();
+
+            MuestraTodosPedidos();
         }
     }
 }
