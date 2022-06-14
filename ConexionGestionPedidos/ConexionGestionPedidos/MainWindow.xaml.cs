@@ -38,72 +38,90 @@ namespace ConexionGestionPedidos
 
         private void MuestraClientes()
         {
-            string consulta = "SELECT * FROM cliente";
 
-            SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(consulta, miConexionSql);
-
-            using (miAdaptadorSql)
+            try
             {
-                DataTable clienteTabla = new DataTable();
+                string consulta = "SELECT * FROM cliente";
 
-                miAdaptadorSql.Fill(clienteTabla);
+                SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(consulta, miConexionSql);
 
-                listaClientes.DisplayMemberPath = "nombre";
-                listaClientes.SelectedValuePath = "Id";
-                listaClientes.ItemsSource = clienteTabla.DefaultView;
+                using (miAdaptadorSql)
+                {
+                    DataTable clienteTabla = new DataTable();
 
+                    miAdaptadorSql.Fill(clienteTabla);
+
+                    listaClientes.DisplayMemberPath = "nombre";
+                    listaClientes.SelectedValuePath = "Id";
+                    listaClientes.ItemsSource = clienteTabla.DefaultView;
+
+                }
+            }
+            catch (Exception e)
+            {
+
+                MessageBox.Show(e.ToString());
             }
         }
 
         private void MuestraPedidos()
         {
-            string consulta = "SELECT * FROM Pedido p INNER JOIN cliente c ON c.ID=p.cCliente " +
-                "WHERE C.ID=@ClienteId";
+            try
+            {
+                string consulta = "SELECT * FROM Pedido p INNER JOIN cliente c ON c.ID=p.cCliente " +
+            "WHERE C.ID=@ClienteId";
 
-            SqlCommand sqlComando = new SqlCommand(consulta, miConexionSql);
+                SqlCommand sqlComando = new SqlCommand(consulta, miConexionSql);
 
-            SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(sqlComando);
+                SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(sqlComando);
 
-            using (miAdaptadorSql)
+                using (miAdaptadorSql)
+                {
+
+                    sqlComando.Parameters.AddWithValue("@ClienteId", listaClientes.SelectedValue);
+
+                    DataTable pedidosTabla = new DataTable();
+
+                    miAdaptadorSql.Fill(pedidosTabla);
+
+                    pedidosCliente.DisplayMemberPath = "fechaPedido";
+                    pedidosCliente.SelectedValuePath = "Id";
+                    pedidosCliente.ItemsSource = pedidosTabla.DefaultView;
+
+                }
+            }
+            catch (Exception e)
             {
 
-                sqlComando.Parameters.AddWithValue("@ClienteId", listaClientes.SelectedValue);
-
-                DataTable pedidosTabla = new DataTable();
-
-                miAdaptadorSql.Fill(pedidosTabla);
-
-                pedidosCliente.DisplayMemberPath = "fechaPedido";
-                pedidosCliente.SelectedValuePath = "Id";
-                pedidosCliente.ItemsSource = pedidosTabla.DefaultView;
-
+                MessageBox.Show(e.ToString());
             }
         }
 
         private void MuestraTodosPedidos()
         {
-            string consulta = "SELECT *, CONCAT (CCliente, ' ', fechaPedido, ' ', formaPago) AS InfoCompleta FROM pedido ";
-
-            SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(consulta, miConexionSql);
-
-            using (miAdaptadorSql)
+            try
             {
-                DataTable pedidosTabla = new DataTable();
-                miAdaptadorSql.Fill(pedidosTabla);
+                string consulta = "SELECT *, CONCAT (CCliente, ' ', fechaPedido, ' ', formaPago) AS InfoCompleta FROM pedido ";
 
-                todosPedidos.DisplayMemberPath = "InfoCompleta";
-                todosPedidos.SelectedValuePath = "Id";
-                todosPedidos.ItemsSource = pedidosTabla.DefaultView;
+                SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(consulta, miConexionSql);
+
+                using (miAdaptadorSql)
+                {
+                    DataTable pedidosTabla = new DataTable();
+                    miAdaptadorSql.Fill(pedidosTabla);
+
+                    todosPedidos.DisplayMemberPath = "InfoCompleta";
+                    todosPedidos.SelectedValuePath = "Id";
+                    todosPedidos.ItemsSource = pedidosTabla.DefaultView;
+                }
+            }
+            catch (Exception e) 
+            { 
+                MessageBox.Show(e.ToString());  
             }
         }
 
         SqlConnection miConexionSql;
-
-        private void listaClientes_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            //MessageBox.Show("Has hecho click en un cliente");
-            MuestraPedidos();
-        }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -122,6 +140,48 @@ namespace ConexionGestionPedidos
             miConexionSql.Close();
 
             MuestraTodosPedidos();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            string consulta = "INSERT INTO cliente (nombre) VALUES (@nombre)";
+
+            SqlCommand miSqlCommand = new SqlCommand(consulta, miConexionSql);
+
+            miConexionSql.Open();
+
+            miSqlCommand.Parameters.AddWithValue("@nombre", insertaCliente.Text);
+
+            miSqlCommand.ExecuteNonQuery();
+
+            miConexionSql.Close();
+
+            MuestraClientes();
+
+            insertaCliente.Text = "";
+
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            string consulta = "DELETE FROM cliente WHERE ID = @ClienteId";
+
+            SqlCommand miSqlCommand = new SqlCommand(consulta, miConexionSql);
+
+            miConexionSql.Open();
+
+            miSqlCommand.Parameters.AddWithValue("@ClienteId", listaClientes.SelectedValue);
+
+            miSqlCommand.ExecuteNonQuery();
+
+            miConexionSql.Close();
+
+            MuestraClientes();
+        }
+        
+        private void listaClientes_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            MuestraPedidos();
         }
     }
 }

@@ -6,12 +6,15 @@
         xmlns:local="clr-namespace:ConexionGestionPedidos"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid RenderTransformOrigin="0.5,0.5" Margin="0,0,0,-6">
         <Label Content="Clientes" HorizontalAlignment="Left" Margin="92,48,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <ListBox Name="listaClientes" Margin="39,109,583,117" SelectionChanged="listaClientes_SelectionChanged"/>
+        <ListBox Name="listaClientes" Margin="39,109,583,117" MouseDoubleClick="listaClientes_MouseDoubleClick"/>
         <Label Content="Pedidos" HorizontalAlignment="Left" Margin="324,48,0,0" VerticalAlignment="Top" FontSize="18"/>
         <ListBox Name="pedidosCliente"  Margin="272,113,352,113"/>
         <ListBox Name="todosPedidos"  Margin="497,109,39,117"/>
         <Button Content="Borrar" HorizontalAlignment="Left" Margin="556,40,0,0" VerticalAlignment="Top" Height="40" Width="146" Click="Button_Click"/>
+        <Button Content="Insertar" HorizontalAlignment="Left" Margin="39,337,0,0" VerticalAlignment="Top" Height="35" Width="82" Click="Button_Click_1"/>
+        <Button Content="Borrar" HorizontalAlignment="Left" Margin="135,337,0,0" VerticalAlignment="Top" Height="35" Width="82" Click="Button_Click_2"/>
+        <TextBox Name="insertaCliente" HorizontalAlignment="Left" Margin="39,389,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="178" Height="23"/>
     </Grid>
 </Window>
