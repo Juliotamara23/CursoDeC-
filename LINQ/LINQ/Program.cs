@@ -3,7 +3,22 @@
 // See https://aka.ms/new-console-template for more information
 
 ControlEmpresaEmpleados ce = new ControlEmpresaEmpleados();
-ce.getCEO();
+//ce.getCEO();
+//ce.getEmpleadosOrdenados();
+
+string entrada = Console.ReadLine();
+
+try
+{
+    int entradaId = Convert.ToInt32(entrada);
+
+    ce.getEmpleadosEmpresa(entradaId);
+}
+catch (Exception)
+{
+
+    Console.WriteLine("Has introducido un ID erroneo");
+}
 
 class ControlEmpresaEmpleados
 {
@@ -15,15 +30,20 @@ class ControlEmpresaEmpleados
         listaEmpresas.Add(new Empresa { Id = 1, Nombre = "Google" });
         listaEmpresas.Add(new Empresa { Id = 2, Nombre = "Pildoras Informaticas" });
 
-        listaEmpleado.Add(new Empleado { Id = 1, Nombre = "Sergey Brin", Cargo = "CEO", EmpresaId = 1, Salario = 1500});
-        listaEmpleado.Add(new Empleado { Id = 2, Nombre = "Juan Diaz", Cargo = "CEO", EmpresaId = 2, Salario = 1500 });
-        listaEmpleado.Add(new Empleado { Id = 3, Nombre = "Larry Page", Cargo = "Co-CEO", EmpresaId = 1, Salario = 1400 });
-        listaEmpleado.Add(new Empleado { Id = 4, Nombre = "Irina Shayk", Cargo = "Co-CEO", EmpresaId = 2, Salario = 1400 });
+        listaEmpleado.Add(new Empleado { Id = 1, Nombre = "Sergey Brin", Cargo = "CEO", 
+            EmpresaId = 1, Salario = 1500});
+        listaEmpleado.Add(new Empleado { Id = 2, Nombre = "Juan Diaz", Cargo = "CEO", 
+            EmpresaId = 2, Salario = 1500 });
+        listaEmpleado.Add(new Empleado { Id = 3, Nombre = "Larry Page", Cargo = "Co-CEO", 
+            EmpresaId = 1, Salario = 1400 });
+        listaEmpleado.Add(new Empleado { Id = 4, Nombre = "Irina Shayk", Cargo = "Co-CEO", 
+            EmpresaId = 2, Salario = 1400 });
     }
 
     public void getCEO()
     {
-        IEnumerable<Empleado> ceos = from Empleado in listaEmpleado where Empleado.Cargo == "CEO" select Empleado;
+        IEnumerable<Empleado> ceos = from Empleado in listaEmpleado where Empleado.Cargo == "CEO" 
+                                     select Empleado;
 
         foreach (Empleado empleado1 in ceos)
         {
@@ -31,8 +51,33 @@ class ControlEmpresaEmpleados
         }
     }
 
+    public void getEmpleadosOrdenados()
+    {
+        IEnumerable<Empleado> empleados = from Empleado in listaEmpleado orderby Empleado.Nombre 
+                                          select Empleado;
+
+        foreach (Empleado empleado1 in empleados)
+        {
+            empleado1.getDatosEmpleado();
+        }
+    }
+
+    public void getEmpleadosEmpresa(int Id)
+    {
+        IEnumerable<Empleado> empleadosPil = from Empleado in listaEmpleado join Empresa
+                                             in listaEmpresas on Empleado.EmpresaId equals
+                                             Empresa.Id where Empresa.Id == Id
+                                             select Empleado;
+
+        foreach (Empleado empleado1 in empleadosPil)
+        {
+            empleado1.getDatosEmpleado();
+        }
+    }
+
     public List<Empresa> listaEmpresas;
     public List<Empleado> listaEmpleado;
+
 }
 
 class Empresa
