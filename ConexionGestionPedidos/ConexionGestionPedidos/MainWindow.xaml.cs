@@ -183,5 +183,37 @@ namespace ConexionGestionPedidos
         {
             MuestraPedidos();
         }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            Actualiza ventanaActualizar = new Actualiza((int)listaClientes.SelectedValue);
+
+            ventanaActualizar.Show();
+
+            try
+            {
+                string consulta = "SELECT nombre FROM cliente WHERE Id=@ClId";
+
+                SqlCommand miSqlCommand = new SqlCommand(consulta, miConexionSql);
+
+                SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(miSqlCommand);
+
+                using (miAdaptadorSql)
+                {
+                    miSqlCommand.Parameters.AddWithValue("@ClId", listaClientes.SelectedValue);
+                    
+                    DataTable clienteTabla= new DataTable();
+
+                    miAdaptadorSql.Fill(clienteTabla);
+
+                    ventanaActualizar.cuadroActualiza.Text = clienteTabla.Rows[0]["nombre"].ToString();
+                }
+            }
+            catch (Exception e2)
+            {
+
+                MessageBox.Show(e2.ToString());
+            }
+        }
     }
 }
