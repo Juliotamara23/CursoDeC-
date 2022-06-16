@@ -188,7 +188,6 @@ namespace ConexionGestionPedidos
         {
             Actualiza ventanaActualizar = new Actualiza((int)listaClientes.SelectedValue);
 
-            ventanaActualizar.Show();
 
             try
             {
@@ -214,6 +213,10 @@ namespace ConexionGestionPedidos
 
                 MessageBox.Show(e2.ToString());
             }
+
+            ventanaActualizar.ShowDialog();
+
+            MuestraClientes();
         }
     }
 }

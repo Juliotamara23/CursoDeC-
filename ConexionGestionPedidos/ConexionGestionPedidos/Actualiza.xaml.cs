@@ -56,6 +56,8 @@ namespace ConexionGestionPedidos
 
                 miConexionSql.Close();
 
+                this.Close();
+
             }
             catch (Exception e3)
             {
