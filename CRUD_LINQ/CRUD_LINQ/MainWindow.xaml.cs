@@ -33,7 +33,9 @@ namespace CRUD_LINQ
             dataContext = new DataClasses1DataContext(miConexion);
 
             //InsertaEmpresas();
-            InsertaEmpleado();
+            //InsertaEmpleado();
+            //InsertaCargos();
+            InsertaEmpleadoCargo();
 
         }
 
@@ -75,6 +77,35 @@ namespace CRUD_LINQ
             dataContext.SubmitChanges();
 
             Principal.ItemsSource = dataContext.Empleado;
+        }
+
+        public void InsertaCargos()
+        {
+            dataContext.Cargo.InsertOnSubmit(new Cargo { NombreCargo = "Director/a" });
+            dataContext.Cargo.InsertOnSubmit(new Cargo { NombreCargo = "Administrativo/a" });
+
+            dataContext.SubmitChanges();
+
+            Principal.ItemsSource= dataContext.Cargo;
+        }
+
+        public void InsertaEmpleadoCargo()
+        {
+            Empleado Juan = dataContext.Empleado.First(em => em.Nombre.Equals("Juan"));
+            Empleado Anna = dataContext.Empleado.First(em => em.Nombre.Equals("Anna"));
+
+            Cargo cDirector = dataContext.Cargo.First(cg => cg.NombreCargo.Equals("Director/a"));
+            Cargo cAdtvo = dataContext.Cargo.First(cg => cg.NombreCargo.Equals("Administrativo/a"));
+
+            CargoEmpleado cargoJuan = new CargoEmpleado();
+
+            cargoJuan.Empleado = Juan;
+
+            cargoJuan.CargoId = cDirector.Id;
+
+            dataContext.SubmitChanges();
+
+            Principal.ItemsSource = dataContext.CargoEmpleado;
         }
 
     }
