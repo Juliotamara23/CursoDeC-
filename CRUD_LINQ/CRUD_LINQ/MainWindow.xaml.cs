@@ -35,7 +35,9 @@ namespace CRUD_LINQ
             //InsertaEmpresas();
             //InsertaEmpleado();
             //InsertaCargos();
-            InsertaEmpleadoCargo();
+            //InsertaEmpleadoCargo();
+            //ActualizaEmpleado();
+            EliminaEmpleado();
 
         }
 
@@ -138,6 +140,28 @@ namespace CRUD_LINQ
             dataContext.SubmitChanges();
 
             Principal.ItemsSource = dataContext.CargoEmpleado;
+        }
+
+        public void ActualizaEmpleado()
+        {
+            Empleado Maria = dataContext.Empleado.First(em => em.Nombre.Equals("Maria"));
+
+            Maria.Nombre = "Maria Angeles";
+
+            dataContext.SubmitChanges();
+
+            Principal.ItemsSource = dataContext.Empleado;
+        }
+
+        public void EliminaEmpleado()
+        {
+            Empleado Juan = dataContext.Empleado.First(em => em.Nombre.Equals("Juan"));
+
+            dataContext.Empleado.DeleteOnSubmit(Juan);
+
+            dataContext.SubmitChanges();
+
+            Principal.ItemsSource = dataContext.Empleado;
         }
 
     }
