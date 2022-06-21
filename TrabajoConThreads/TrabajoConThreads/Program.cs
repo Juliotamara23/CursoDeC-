@@ -95,41 +95,62 @@
 //    }
 //}
 
-var tareaTerminada = new TaskCompletionSource<bool>();
+//var tareaTerminada = new TaskCompletionSource<bool>();
 
-var hilo1 = new Thread(() =>
+//var hilo1 = new Thread(() =>
+//{
+//    for (int i = 0; i < 5; i++)
+//    {
+//        Console.WriteLine("Hilo 1");
+//        Thread.Sleep(1000);
+//    }
+
+//    tareaTerminada.TrySetResult(true);
+//});
+
+//var hilo2 = new Thread(() =>
+//{
+//    for (int i = 0; i < 5; i++)
+//    {
+//        Console.WriteLine("Hilo 2");
+//        Thread.Sleep(1000);
+//    }
+//});
+
+//var hilo3 = new Thread(() =>
+//{
+//    for (int i = 0; i < 5; i++)
+//    {
+//        Console.WriteLine("Hilo 3");
+//        Thread.Sleep(1000);
+//    }
+//});
+
+//hilo1.Start();
+
+//var resultado = tareaTerminada.Task.Result;
+
+//hilo2.Start();
+
+//hilo3.Start();
+
+for (int i = 0; i < 100; i++)
 {
-    for (int i = 0; i < 5; i++)
-    {
-        Console.WriteLine("Hilo 1");
-        Thread.Sleep(1000);
-    }
+    //Thread t = new Thread(EjecutarTarea);
 
-    tareaTerminada.TrySetResult(true);
-});
+    //t.Start();
 
-var hilo2 = new Thread(() =>
+    ThreadPool.QueueUserWorkItem(EjecutarTarea, i);
+} 
+
+Console.ReadLine();
+
+static void EjecutarTarea(Object o)
 {
-    for (int i = 0; i < 5; i++)
-    {
-        Console.WriteLine("Hilo 2");
-        Thread.Sleep(1000);
-    }
-});
+    int nTarea = (int)o;
 
-var hilo3 = new Thread(() =>
-{
-    for (int i = 0; i < 5; i++)
-    {
-        Console.WriteLine("Hilo 3");
-        Thread.Sleep(1000);
-    }
-});
+    Console.WriteLine($"Thread n°: {Thread.CurrentThread.ManagedThreadId} ha comenzado la tarea n° "+nTarea);
+    Thread.Sleep(1000);
 
-hilo1.Start();
-
-var resultado = tareaTerminada.Task.Result;
-
-hilo2.Start();
-
-hilo3.Start();
+    Console.WriteLine($"Thread n°: {Thread.CurrentThread.ManagedThreadId} ha Terminado la tarea n° "+nTarea);
+}
