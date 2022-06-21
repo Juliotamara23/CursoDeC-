@@ -1,0 +1,15 @@
+D:\C#\primeraAplicacion\TrabajoConThreads\TrabajoConThreads\bin\Debug\net6.0\TrabajoConThreads.exe
+D:\C#\primeraAplicacion\TrabajoConThreads\TrabajoConThreads\bin\Debug\net6.0\TrabajoConThreads.deps.json
+D:\C#\primeraAplicacion\TrabajoConThreads\TrabajoConThreads\bin\Debug\net6.0\TrabajoConThreads.runtimeconfig.json
+D:\C#\primeraAplicacion\TrabajoConThreads\TrabajoConThreads\bin\Debug\net6.0\TrabajoConThreads.dll
+D:\C#\primeraAplicacion\TrabajoConThreads\TrabajoConThreads\bin\Debug\net6.0\TrabajoConThreads.pdb
+D:\C#\primeraAplicacion\TrabajoConThreads\TrabajoConThreads\obj\Debug\net6.0\TrabajoConThreads.csproj.AssemblyReference.cache
+D:\C#\primeraAplicacion\TrabajoConThreads\TrabajoConThreads\obj\Debug\net6.0\TrabajoConThreads.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\primeraAplicacion\TrabajoConThreads\TrabajoConThreads\obj\Debug\net6.0\TrabajoConThreads.AssemblyInfoInputs.cache
+D:\C#\primeraAplicacion\TrabajoConThreads\TrabajoConThreads\obj\Debug\net6.0\TrabajoConThreads.AssemblyInfo.cs
+D:\C#\primeraAplicacion\TrabajoConThreads\TrabajoConThreads\obj\Debug\net6.0\TrabajoConThreads.csproj.CoreCompileInputs.cache
+D:\C#\primeraAplicacion\TrabajoConThreads\TrabajoConThreads\obj\Debug\net6.0\TrabajoConThreads.dll
+D:\C#\primeraAplicacion\TrabajoConThreads\TrabajoConThreads\obj\Debug\net6.0\refint\TrabajoConThreads.dll
+D:\C#\primeraAplicacion\TrabajoConThreads\TrabajoConThreads\obj\Debug\net6.0\TrabajoConThreads.pdb
+D:\C#\primeraAplicacion\TrabajoConThreads\TrabajoConThreads\obj\Debug\net6.0\TrabajoConThreads.genruntimeconfig.cache
+D:\C#\primeraAplicacion\TrabajoConThreads\TrabajoConThreads\obj\Debug\net6.0\ref\TrabajoConThreads.dll
