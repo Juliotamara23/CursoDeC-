@@ -20,65 +20,101 @@
 
 //tarea2.Start();
 
-RalizarTodasTareas();
+//RalizarTodasTareas();
 
-Console.ReadLine();
+//Console.ReadLine();
 
-static void RalizarTodasTareas()
+//static void RalizarTodasTareas()
+//{
+//var tarea1 = Task.Run(() =>
+//{
+//    EjecutarTarea();
+//});
+
+//tarea1.Wait();
+
+//var tarea2 = Task.Run(() =>
+//{
+//    EjecutarTarea2();
+//});
+
+//tarea2.Wait();
+
+//var tarea3 = Task.Run(() =>
+//{
+//    EjecutarTarea3();
+//});
+
+//}
+
+//static void EjecutarTarea()
+//{
+//    for (int i = 0; i < 5; i++)
+//    {
+//        var miThread = Thread.CurrentThread.ManagedThreadId;
+
+//        Thread.Sleep(1000);
+
+//        Console.WriteLine("Esta vuelta de bucle corresponde a la tarea 1");
+//    }
+//}
+
+//static void EjecutarTarea2()
+//{
+//    for (int i = 0; i < 5; i++)
+//    {
+//        var miThread = Thread.CurrentThread.ManagedThreadId;
+
+//        Thread.Sleep(500);
+
+//        Console.WriteLine("Esta vuelta de bucle corresponde a la tarea 2");
+//    }
+//}
+
+//static void EjecutarTarea3()
+//{
+//    for (int i = 0; i < 5; i++)
+//    {
+//        var miThread = Thread.CurrentThread.ManagedThreadId;
+
+//        Thread.Sleep(500);
+
+//        Console.WriteLine("Esta vuelta de bucle corresponde a la tarea 3");
+//    }
+//}
+
+
+int acumulador = 0;
+
+//for (int i = 0; i < 100; i++)
+//{
+//    RealizarTarea(i);
+
+//    Console.WriteLine($"Acumulador vale {acumulador}, tarea realizada por el hilo {Thread.CurrentThread.ManagedThreadId}");
+//}
+
+Parallel.For(0, 100, dato =>
 {
-    var tarea1 = Task.Run(() =>
+    Console.WriteLine($"Acumulador vale {acumulador}, tarea realizada por el hilo {Thread.CurrentThread.ManagedThreadId}");
+
+    if ((acumulador % 2) == 0)
     {
-        EjecutarTarea();
-    });
+        acumulador += dato;
 
-    tarea1.Wait();
-
-    var tarea2 = Task.Run(() =>
-    {
-        EjecutarTarea2();
-    });
-
-    tarea2.Wait();
-
-    var tarea3 = Task.Run(() =>
-    {
-        EjecutarTarea3();
-    });
-
-}
-
-static void EjecutarTarea()
-{
-    for (int i = 0; i < 5; i++)
-    {
-        var miThread = Thread.CurrentThread.ManagedThreadId;
-
-        Thread.Sleep(1000);
-
-        Console.WriteLine("Esta vuelta de bucle corresponde a la tarea 1");
+        Thread.Sleep(100);
     }
-}
+    else { acumulador -= dato; Thread.Sleep(100); }
+});
 
-static void EjecutarTarea2()
-{
-    for (int i = 0; i < 5; i++)
-    {
-        var miThread = Thread.CurrentThread.ManagedThreadId;
+//void RealizarTarea(int dato)
+//{
+//    Console.WriteLine($"Acumulador vale {acumulador}, tarea realizada por el hilo {Thread.CurrentThread.ManagedThreadId}");
 
-        Thread.Sleep(500);
+//    if ((acumulador % 2) == 0)
+//    {
+//        acumulador += dato;
 
-        Console.WriteLine("Esta vuelta de bucle corresponde a la tarea 2");
-    }
-}
-
-static void EjecutarTarea3()
-{
-    for (int i = 0; i < 5; i++)
-    {
-        var miThread = Thread.CurrentThread.ManagedThreadId;
-
-        Thread.Sleep(500);
-
-        Console.WriteLine("Esta vuelta de bucle corresponde a la tarea 3");
-    }
-}
+//        Thread.Sleep(100);
+//    }
+//    else { acumulador -= dato; Thread.Sleep(100); }
+//}
