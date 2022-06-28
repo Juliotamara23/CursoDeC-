@@ -134,23 +134,74 @@
 
 //hilo3.Start();
 
+//for (int i = 0; i < 100; i++)
+//{
+//    //Thread t = new Thread(EjecutarTarea);
+
+//    //t.Start();
+
+//    ThreadPool.QueueUserWorkItem(EjecutarTarea, i);
+//} 
+
+//Console.ReadLine();
+
+//static void EjecutarTarea(Object o)
+//{
+//    int nTarea = (int)o;
+
+//    Console.WriteLine($"Thread n°: {Thread.CurrentThread.ManagedThreadId} ha comenzado la tarea n° "+nTarea);
+//    Thread.Sleep(1000);
+
+//    Console.WriteLine($"Thread n°: {Thread.CurrentThread.ManagedThreadId} ha Terminado la tarea n° "+nTarea);
+//}
+
+int acumulador = 0;
+
+CancellationTokenSource miToken = new CancellationTokenSource();
+
+CancellationToken cancelaToken = miToken.Token;
+
+Task tarea = Task.Run(() => RealizarTarea(cancelaToken));
+
 for (int i = 0; i < 100; i++)
 {
-    //Thread t = new Thread(EjecutarTarea);
+    acumulador += 30;
 
-    //t.Start();
+    Thread.Sleep(1000);
 
-    ThreadPool.QueueUserWorkItem(EjecutarTarea, i);
-} 
+    if (acumulador > 100)
+    {
+        miToken.Cancel();
+
+        break;
+    }
+}
+
+Thread.Sleep(1000);
+
+Console.WriteLine("Valor del acumulador: "+acumulador);
 
 Console.ReadLine();
 
-static void EjecutarTarea(Object o)
+void RealizarTarea(CancellationToken token)
 {
-    int nTarea = (int)o;
+    for (int i = 0; i < 100; i++)
+    {
 
-    Console.WriteLine($"Thread n°: {Thread.CurrentThread.ManagedThreadId} ha comenzado la tarea n° "+nTarea);
-    Thread.Sleep(1000);
+        acumulador++;
+    
+        var miThread = Thread.CurrentThread.ManagedThreadId;
 
-    Console.WriteLine($"Thread n°: {Thread.CurrentThread.ManagedThreadId} ha Terminado la tarea n° "+nTarea);
+        Thread.Sleep(1000);
+
+        Console.WriteLine("Ejecutar tarea el thread: "+miThread);
+
+        Console.WriteLine(acumulador);
+
+        if (token.IsCancellationRequested)
+        {
+            acumulador = 0;
+            return;
+        }
+    }
 }
